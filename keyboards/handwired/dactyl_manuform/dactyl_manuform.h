@@ -18,6 +18,8 @@
 #    include "6x6.h"
 #elif defined(KEYBOARD_handwired_dactyl_manuform_dmote_62key)
 #    include "62key.h"
+#elif defined(KEYBOARD_handwired_dactyl_manuform_6x5_3)
+#    include "6x5_3.h"
 #endif
 
 #include "quantum.h"
