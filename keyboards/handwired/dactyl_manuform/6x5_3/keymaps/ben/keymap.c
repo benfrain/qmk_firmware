@@ -57,8 +57,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     _______,            _______, KC_MS_U,_______, _______, _______,                                  _______,     _______,    _______,    _______,    _______,    _______,
     _______,            KC_MS_L, KC_MS_D, KC_MS_R, KC_GRV, _______,                                  _______,     _______,    _______,    _______,    _______,    _______,
     _______,            _______, _______, _______, _______, _______,                                 _______,     _______,    _______,    _______,    KC_BSLS,    _______,
-    TO(0),              _______, _______, _______, KC_MINS,KC_CUT,KC_COPY,                          _______,     KC_MPLY,    KC_MPRV,    KC_VOLD,    KC_VOLU,    KC_MNXT,
-                                                                    KC_PASTE,               _______
+    TO(0),              _______, _______, KC_MINS,G(KC_X),G(KC_C),                          _______,     KC_MPLY,    KC_MPRV,    KC_VOLD,    KC_VOLU,    KC_MNXT,
+                                                                    G(KC_V),               _______
 )};
 
 #ifdef OLED_ENABLE
