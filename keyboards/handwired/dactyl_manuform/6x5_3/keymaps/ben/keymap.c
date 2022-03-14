@@ -47,18 +47,18 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_TAB,             KC_Q,   KC_W,    KC_F,    KC_P,    KC_B,                                      KC_J,       KC_L,       KC_U,       KC_Y,       KC_SCLN,    KC_RBRC,
     KC_DEL,             KC_A,   KC_R,    KC_S,    KC_T,    KC_G,                                      KC_M,       KC_N,       KC_E,       KC_I,       KC_O,       KC_BSPC,
     SFT_T(KC_PGUP),     KC_Z,   KC_X,    KC_C,    KC_D,    KC_V,                                      KC_K,       KC_H,       KC_COMM,    KC_DOT,     KC_SLSH,    SFT_T(KC_PGDN),
-    OSL(1), KC_LCTL,      LALT_T(KC_MINS),LGUI_T(KC_GRV),KC_SPC,TD(CMD_MNS),                              TD(CMD_PLUS),     KC_ENT,     KC_LEFT,     KC_DOWN,    KC_UP,    KC_RIGHT,
-                                                                    KC_QUOT,                     RSFT(KC_QUOT)
+    OSL(1), KC_LCTL,    LALT_T(KC_MINS),LGUI_T(KC_GRV),    KC_SPC,  TD(CMD_MNS),              TD(CMD_PLUS),       KC_ENT,     KC_LEFT,    KC_DOWN,    KC_UP,      KC_RIGHT,
+                                                                          KC_QUOT,         RSFT(KC_QUOT)
 
 ),
 
 [_RAISE] = LAYOUT(
-KC_F11,  KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,                KC_F6,   KC_F7,   KC_F8,  KC_F9,  KC_F10,  KC_F12,
-  _______, _______, KC_MS_U,_______, _______, _______,                     _______, _______, _______, _______, _______, _______,
-  _______, KC_MS_L, KC_MS_D, KC_MS_R, KC_GRV, _______,                     _______,  _______, _______, _______, _______, _______,
-  _______, _______, _______, _______, _______, _______,    _______, _______, _______, _______, KC_BSLS, _______,
-  TO(0), _______, _______, _______, KC_MINS,_______,_______,       KC_EQL, KC_MPRV, KC_VOLD, KC_VOLU, KC_MNXT,
-  _______, _______
+    KC_F11,             KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,                                   KC_F6,       KC_F7,      KC_F8,      KC_F9,      KC_F10,     KC_F12,
+    _______,            _______, KC_MS_U,_______, _______, _______,                                  _______,     _______,    _______,    _______,    _______,    _______,
+    _______,            KC_MS_L, KC_MS_D, KC_MS_R, KC_GRV, _______,                                  _______,     _______,    _______,    _______,    _______,    _______,
+    _______,            _______, _______, _______, _______, _______,                                 _______,     _______,    _______,    _______,    KC_BSLS,    _______,
+    TO(0),              _______, _______, _______, KC_MINS,KC_CUT,KC_COPY,                          _______,     KC_MPLY,    KC_MPRV,    KC_VOLD,    KC_VOLU,    KC_MNXT,
+                                                                    KC_PASTE,               _______
 )};
 
 #ifdef OLED_ENABLE
