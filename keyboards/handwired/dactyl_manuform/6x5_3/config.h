@@ -12,7 +12,8 @@
 // Default to master left
 // #define MASTER_LEFT
 #define SPLIT_USB_DETECT
-#define SOFT_SERIAL_PIN D5
+#undef SOFT_SERIAL_PIN
+#define SOFT_SERIAL_PIN D3
 // Rows are doubled-up, because it is the total number of rows between the two halves.
 #define MATRIX_ROWS 12
 #define MATRIX_COLS 6
@@ -30,7 +31,6 @@
 #define MATRIX_ROW_PINS { F7, B1, B3, B2, B6, F6 }
 #define MATRIX_COL_PINS { B5, B4, E6, D7, C6, D4 }
 
-#define DIODE_DIRECTION COL2ROW
 
 // Default diode direction
 #define DIODE_DIRECTION COL2ROW
