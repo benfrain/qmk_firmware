@@ -33,7 +33,7 @@
 
 
 // Default diode direction
-#define DIODE_DIRECTION COL2ROW
+#define DIODE_DIRECTION ROW2COL
 
 
 // Tapping term is used for many things, e.g.
