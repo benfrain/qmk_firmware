@@ -1,6 +1,11 @@
 {
     "keyboard_name": "Boardwalk",
     "url": "",
+    "usb": {
+        "vid": "0x9797",
+        "pid": "0x0001",
+        "device_version": "0.0.1"
+    },
     "maintainer": "qmk",
     "layouts": {
         "LAYOUT_ortho_5x14": {
