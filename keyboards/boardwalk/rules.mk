@@ -12,5 +12,6 @@ LAYOUTS = ortho_5x14
 MOUSEKEY_ENABLE = yes        # Mouse keys
 NKRO_ENABLE = yes           # Enable N-Key Rollover
 RGBLIGHT_ENABLE = yes       # Enable WS2812 RGB underlight.  Do not enable this with audio at the same time.
-TAP_DANCE_ENABLE = yes
+TAP_DANCE_ENABLE = no
 UNICODE_ENABLE = yes        # Unicode
+CAPS_WORD_ENABLE = yes
